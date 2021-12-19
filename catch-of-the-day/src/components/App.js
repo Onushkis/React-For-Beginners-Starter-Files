@@ -4,18 +4,17 @@ import Order from "./Order";
 import Inventory from "./Inventory";
 
 class App extends React.Component {
-render () {
+  render() {
     return (
-<div className="catch-of-the-day">
-    <div className="menu"> 
-    <Header tagline="Fresh Seafood Market"> </Header>
-</div>
-<Order />
-<Inventory />
-</div>
+      <div className="catch-of-the-day">
+        <div className="menu">
+          <Header tagline="Fresh Seafood Market"> </Header>
+        </div>
+        <Order />
+        <Inventory />
+      </div>
     );
+  }
 }
-}
-
 
 export default App;
